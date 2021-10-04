@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="/index.html">
+          <img src="img/logo.png" alt="Logo" />
+        </a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="about.html">О компании</a></li>
+          <li><a href="objects.html">Объекты</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+          <li>
+            <a href="tel:+380730652440"
+              ><img src="img/phone-call.svg" alt=""
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div class="first-section">
+      <div class="bg-fon"></div>
+      <div class="main-info">
+        <p class="text">
+          Застройщик СК "Будова" В продаже квартиры в новых комплексах!
+        </p>
+        <p class="secondary">Самый большой выбор вторичного рынка!</p>
+        <ul>
+          <li>Квартиры от инвесторов</li>
+          <hr width="2" size="35" />
+          <li>Квартиры от хозяев</li>
+          <hr width="2" size="35" />
+          <li>Закрытые продажи</li>
+        </ul>
+      </div>
+    </div>
+    <div class="second-section">
+      <h4>Местоположение</h4>
+      <hr />
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2748.033264841805!2d30.70766131605071!3d46.467849079125614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c632214e6bca69%3A0x81b0b7317814f36b!2z0JzQuNGF0LDQudC70ZbQstGB0YzQutCwINC_0LvQvtGJ0LAsIDE2LCDQntC00LXRgdCwLCDQntC00LXRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNjUwMDA!5e0!3m2!1sru!2sua!4v1633371155151!5m2!1sru!2sua"
+          width="100%"
+          height="500"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+        <div class="form-card">
+          <div class="row">
+            <div class="col s12 m2 map-form">
+              <div class="card-panel blue darken-3">
+                <form action="">
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <input id="name" type="text" class="validate" />
+                      <label for="name">Имя</label>
+                    </div>
+                    <div class="input-field col s12">
+                      <input
+                        id="telephone_num"
+                        type="text"
+                        class="validate"
+                        data-length="10"
+                      />
+                      <label for="telephone_num">Номер телефона</label>
+                    </div>
+                    <div class="input-field col s12">
+                      <select multiple>
+                        <option value="1">M.PARK</option>
+                        <option value="2">Mandarin ART</option>
+                        <option value="3">Скай Сити плюс</option>
+                        <option value="4">Омега</option>
+                        <option value="5">Скай Сити</option>
+                        <option value="6">Альтаир-3</option>
+                        <option value="7">Sea View</option>
+                        <option value="8">Морская резиденция</option>
+                        <option value="9">Оскар</option>
+                        <option value="10">Апарт-комплекс Литературный</option>
+                        <option value="11">Четыре сезона</option>
+                        <option value="12">ЖК на Еврейской, 3</option>
+                      </select>
+                      <label>Выберите комплекс(-ы)</label>
+                    </div>
+                    <label>
+                      <input type="checkbox" />
+                      <span
+                        >Я согласен на персональную обработку данных и
+                        ознакомлен(-а)
+                        <a href="">с политикой конфиденциальности</a></span
+                      >
+                    </label>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--          <div class="block_info">-->
+    <!--            <div class="right_side">-->
+    <!--              <div class="top_side">-->
+    <!--                Застройщик СК Будова В продаже квартиры в новых комплексах!-->
+    <!--              </div>-->
+    <!--            </div>-->
+    <!--            <div class="down_side">-->
+    <!--              <ul>-->
+    <!--                <li>Квартиры от инвесторов</li>-->
+    <!--                <li>Квартиры от хозяев</li>-->
+    <!--                <li>Закрытые продажи</li>-->
+    <!--              </ul>-->
+    <!--            </div>-->
+    <!--            <div class="left_side">Самый большой выбор вторичного рынка</div>-->
+    <!--          </div>-->
+    <!--      <div class="content">-->
+    <!--        <section class="cards">-->
+    <!--          <h2 class="cards__title title">В карточках (три колонки)</h2>-->
+    <!--          <div class="cards__row">-->
+    <!--            <div class="cards__column">-->
+    <!--              <div class="cards__item">-->
+    <!--                <div class="cards__image">-->
+    <!--                  <img src="img/photo_2021-08-18_18-58-00.jpg" alt="" />-->
+    <!--                </div>-->
+    <!--                <div class="cards__body">-->
+    <!--                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam-->
+    <!--                  corrupti a voluptatibus autem eaque aut nisi quis ex sequi!-->
+    <!--                  Ducimus necessitatibus deleniti mollitia ex dignissimos odio-->
+    <!--                  obcaecati totam est nesciunt?-->
+    <!--                </div>-->
+    <!--              </div>-->
+    <!--            </div>-->
+    <!--            <div class="cards__column">-->
+    <!--              <div class="cards__item">-->
+    <!--                <div class="cards__image">-->
+    <!--                  <img src="img/photo_2021-08-18_18-58-02.jpg" alt="" />-->
+    <!--                </div>-->
+    <!--                <div class="cards__body">-->
+    <!--                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam-->
+    <!--                  corrupti a voluptatibus autem eaque aut nisi quis ex sequi!-->
+    <!--                  Ducimus necessitatibus deleniti mollitia ex dignissimos odio-->
+    <!--                  obcaecati totam est nesciunt?-->
+    <!--                </div>-->
+    <!--              </div>-->
+    <!--            </div>-->
+    <!--            <div class="cards__column">-->
+    <!--              <div class="cards__item">-->
+    <!--                <div class="cards__image">-->
+    <!--                  <img src="img/photo_2021-08-18_18-58-03.jpg" alt="" />-->
+    <!--                </div>-->
+    <!--                <div class="cards__body">-->
+    <!--                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam-->
+    <!--                  corrupti a voluptatibus autem eaque aut nisi quis ex sequi!-->
+    <!--                  Ducimus necessitatibus deleniti mollitia ex dignissimos odio-->
+    <!--                  obcaecati totam est nesciunt?-->
+    <!--                </div>-->
+    <!--              </div>-->
+    <!--            </div>-->
+    <!--          </div>-->
+    <!--        </section>-->
+    <!--      </div>-->
+    <!--      <footer>-->
+    <!--        <div class="box_footer"></div>-->
+    <!--      </footer>-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
