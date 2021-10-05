@@ -5,58 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/materialize.min.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <header>
-      <div class="logo">
-        <a href="/index.html">
-          <img src="img/logo.png" alt="Logo" />
+    <!--    <header>-->
+    <!--      <div class="logo">-->
+    <!--        <a href="/index.html">-->
+    <!--          <img src="img/logo.png" alt="Logo" />-->
+    <!--        </a>-->
+    <!--      </div>-->
+    <!--      <div class="menu">-->
+    <!--        <ul>-->
+    <!--          <li><a href="about.html">О компании</a></li>-->
+    <!--          <li><a href="objects.html">Объекты</a></li>-->
+    <!--          <li><a href="contacts.html">Контакты</a></li>-->
+    <!--          <li>-->
+    <!--            <a href="tel:+380730652440"-->
+    <!--              ><img src="img/phone-call.svg" alt=""-->
+    <!--            /></a>-->
+    <!--          </li>-->
+    <!--        </ul>-->
+    <!--      </div>-->
+    <!--    </header>-->
+    <nav class="blue darken-3 offset-l1">
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo"
+          ><img src="img/logo.png" class="logo" alt=""
+        /></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+          <i class="material-icons">menu</i>
         </a>
-      </div>
-      <div class="menu">
-        <ul>
+        <ul class="right hide-on-med-and-down">
           <li><a href="about.html">О компании</a></li>
           <li><a href="objects.html">Объекты</a></li>
           <li><a href="contacts.html">Контакты</a></li>
           <li>
-            <a href="tel:+380730652440"
-              ><img src="img/phone-call.svg" alt=""
-            /></a>
+            <a class="btn-floating waves-effect waves-light orange pulse"
+              ><i class="material-icons">call</i></a
+            >
           </li>
         </ul>
       </div>
-    </header>
-    <div class="first-section">
-      <div class="bg-fon"></div>
-      <div class="main-info">
-        <p class="text">
-          Застройщик СК "Будова" В продаже квартиры в новых комплексах!
-        </p>
-        <p class="secondary">Самый большой выбор вторичного рынка!</p>
-        <ul>
-          <li>Квартиры от инвесторов</li>
-          <hr width="2" size="35" />
-          <li>Квартиры от хозяев</li>
-          <hr width="2" size="35" />
-          <li>Закрытые продажи</li>
-        </ul>
-      </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="about.html">О компании</a></li>
+      <li><a href="objects.html">Объекты</a></li>
+      <li><a href="contacts.html">Контакты</a></li>
+    </ul>
+    <div class="parallax-container">
+      <div class="parallax"><img src="img/mandarin.jpg" /></div>
     </div>
-    <div class="second-section">
-      <h4>Местоположение</h4>
-      <hr />
-      <div class="map">
+
+    <!--    <div class="first-section">-->
+    <!--      <div class="bg-fon"></div>-->
+    <!--      <div class="main-info">-->
+    <!--        <p class="text">-->
+    <!--          Застройщик СК "Будова" В продаже квартиры в новых комплексах!-->
+    <!--        </p>-->
+    <!--        <p class="secondary">Самый большой выбор вторичного рынка!</p>-->
+    <!--        <ul>-->
+    <!--          <li>Квартиры от инвесторов</li>-->
+    <!--          <hr width="2" size="35" />-->
+    <!--          <li>Квартиры от хозяев</li>-->
+    <!--          <hr width="2" size="35" />-->
+    <!--          <li>Закрытые продажи</li>-->
+    <!--        </ul>-->
+    <!--      </div>-->
+    <!--    </div>-->
+
+    <div class="second-section z-depth-5">
+      <div class="container">
+        <h3
+          style="
+            color: #f77737;
+            border-bottom: 1px solid #f77737;
+            display: inline-block;
+          "
+        >
+          Местоположение
+        </h3>
+        <p class="grey-text text-darken-3 lighten-3">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum enim eos
+          omnis quidem soluta voluptates.
+        </p>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2748.033264841805!2d30.70766131605071!3d46.467849079125614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c632214e6bca69%3A0x81b0b7317814f36b!2z0JzQuNGF0LDQudC70ZbQstGB0YzQutCwINC_0LvQvtGJ0LAsIDE2LCDQntC00LXRgdCwLCDQntC00LXRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNjUwMDA!5e0!3m2!1sru!2sua!4v1633371155151!5m2!1sru!2sua"
           width="100%"
@@ -65,58 +101,65 @@
           allowfullscreen=""
           loading="lazy"
         ></iframe>
-        <div class="form-card">
-          <div class="row">
-            <div class="col s12 m2 map-form">
-              <div class="card-panel blue darken-3">
-                <form action="">
-                  <div class="row">
-                    <div class="input-field col s12">
-                      <input id="name" type="text" class="validate" />
-                      <label for="name">Имя</label>
-                    </div>
-                    <div class="input-field col s12">
-                      <input
-                        id="telephone_num"
-                        type="text"
-                        class="validate"
-                        data-length="10"
-                      />
-                      <label for="telephone_num">Номер телефона</label>
-                    </div>
-                    <div class="input-field col s12">
-                      <select multiple>
-                        <option value="1">M.PARK</option>
-                        <option value="2">Mandarin ART</option>
-                        <option value="3">Скай Сити плюс</option>
-                        <option value="4">Омега</option>
-                        <option value="5">Скай Сити</option>
-                        <option value="6">Альтаир-3</option>
-                        <option value="7">Sea View</option>
-                        <option value="8">Морская резиденция</option>
-                        <option value="9">Оскар</option>
-                        <option value="10">Апарт-комплекс Литературный</option>
-                        <option value="11">Четыре сезона</option>
-                        <option value="12">ЖК на Еврейской, 3</option>
-                      </select>
-                      <label>Выберите комплекс(-ы)</label>
-                    </div>
-                    <label>
-                      <input type="checkbox" />
-                      <span
-                        >Я согласен на персональную обработку данных и
-                        ознакомлен(-а)
-                        <a href="">с политикой конфиденциальности</a></span
-                      >
-                    </label>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
+
+        <!--          <div class="form-card">-->
+        <!--            <div class="row">-->
+        <!--              <div class="col right map-form">-->
+        <!--                <div class="card-panel blue darken-3">-->
+        <!--                  <form action="">-->
+        <!--                    <div class="row">-->
+        <!--                      <div class="input-field col s12">-->
+        <!--                        <input id="name" type="text" class="validate" />-->
+        <!--                        <label for="name">Имя</label>-->
+        <!--                      </div>-->
+        <!--                      <div class="input-field col s12">-->
+        <!--                        <input-->
+        <!--                          id="telephone_num"-->
+        <!--                          type="text"-->
+        <!--                          class="validate"-->
+        <!--                          data-length="10"-->
+        <!--                        />-->
+        <!--                        <label for="telephone_num">Номер телефона</label>-->
+        <!--                      </div>-->
+        <!--                      <div class="input-field col s12">-->
+        <!--                        <select multiple>-->
+        <!--                          <option value="1">M.PARK</option>-->
+        <!--                          <option value="2">Mandarin ART</option>-->
+        <!--                          <option value="3">Скай Сити плюс</option>-->
+        <!--                          <option value="4">Омега</option>-->
+        <!--                          <option value="5">Скай Сити</option>-->
+        <!--                          <option value="6">Альтаир-3</option>-->
+        <!--                          <option value="7">Sea View</option>-->
+        <!--                          <option value="8">Морская резиденция</option>-->
+        <!--                          <option value="9">Оскар</option>-->
+        <!--                          <option value="10">-->
+        <!--                            Апарт-комплекс Литературный-->
+        <!--                          </option>-->
+        <!--                          <option value="11">Четыре сезона</option>-->
+        <!--                          <option value="12">ЖК на Еврейской, 3</option>-->
+        <!--                        </select>-->
+        <!--                        <label>Выберите комплекс(-ы)</label>-->
+        <!--                      </div>-->
+        <!--                      <label class="agreement">-->
+        <!--                        <input type="checkbox" />-->
+        <!--                        <span-->
+        <!--                          >Я ознакомлен(-а)-->
+        <!--                          <a href="">с политикой конфиденциальности</a></span-->
+        <!--                        >-->
+        <!--                      </label>-->
+        <!--                    </div>-->
+        <!--                  </form>-->
+        <!--                </div>-->
+        <!--              </div>-->
+        <!--            </div>-->
+        <!--          </div>-->
       </div>
     </div>
+
+    <div class="parallax-container">
+      <div class="parallax"><img src="img/mpark.jpg" /></div>
+    </div>
+
     <!--          <div class="block_info">-->
     <!--            <div class="right_side">-->
     <!--              <div class="top_side">-->
@@ -181,8 +224,25 @@
     <!--      <footer>-->
     <!--        <div class="box_footer"></div>-->
     <!--      </footer>-->
+    <!-- Element Showed -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>Modal Header</h4>
+        <p>A bunch of text</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat"
+          >Agree</a
+        >
+      </div>
+    </div>
+    <div class="fixed-action-btn">
+      <a class="btn-floating btn-large orange modal-trigger" href="#modal1">
+        <i class="large material-icons">call</i>
+      </a>
+    </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/materialize.min.js"></script>
     <script src="js/index.js"></script>
   </body>
 </html>
