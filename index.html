@@ -13,26 +13,7 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <!--    <header>-->
-    <!--      <div class="logo">-->
-    <!--        <a href="/index.html">-->
-    <!--          <img src="img/logo.png" alt="Logo" />-->
-    <!--        </a>-->
-    <!--      </div>-->
-    <!--      <div class="menu">-->
-    <!--        <ul>-->
-    <!--          <li><a href="about.html">О компании</a></li>-->
-    <!--          <li><a href="objects.html">Объекты</a></li>-->
-    <!--          <li><a href="contacts.html">Контакты</a></li>-->
-    <!--          <li>-->
-    <!--            <a href="tel:+380730652440"-->
-    <!--              ><img src="img/phone-call.svg" alt=""-->
-    <!--            /></a>-->
-    <!--          </li>-->
-    <!--        </ul>-->
-    <!--      </div>-->
-    <!--    </header>-->
-    <nav class="blue darken-3 offset-l1">
+    <nav class="blue darken-4 offset-l1">
       <div class="nav-wrapper">
         <a href="#!" class="brand-logo"
           ><img src="img/logo.png" class="logo" alt=""
@@ -45,7 +26,24 @@
           <li><a href="objects.html">Объекты</a></li>
           <li><a href="contacts.html">Контакты</a></li>
           <li>
-            <a class="btn-floating waves-effect waves-light orange pulse"
+            <a
+              class="waves-effect waves-light btn blue darken-1 modal-trigger"
+              href="#modal2"
+              style="border-radius: 10px"
+              >Продать свою</a
+            >
+          </li>
+          <li>
+            <a
+              class="
+                btn-floating
+                waves-effect waves-light
+                orange
+                darken-3
+                pulse
+                modal-trigger
+              "
+              href="#modal1"
               ><i class="material-icons">call</i></a
             >
           </li>
@@ -56,28 +54,18 @@
       <li><a href="about.html">О компании</a></li>
       <li><a href="objects.html">Объекты</a></li>
       <li><a href="contacts.html">Контакты</a></li>
+      <li>
+        <a
+          class="waves-effect waves-light btn blue darken-1 modal-trigger"
+          href="#modal2"
+          style="border-radius: 10px"
+          >Продать свою</a
+        >
+      </li>
     </ul>
     <div class="parallax-container">
       <div class="parallax"><img src="img/mandarin.jpg" /></div>
     </div>
-
-    <!--    <div class="first-section">-->
-    <!--      <div class="bg-fon"></div>-->
-    <!--      <div class="main-info">-->
-    <!--        <p class="text">-->
-    <!--          Застройщик СК "Будова" В продаже квартиры в новых комплексах!-->
-    <!--        </p>-->
-    <!--        <p class="secondary">Самый большой выбор вторичного рынка!</p>-->
-    <!--        <ul>-->
-    <!--          <li>Квартиры от инвесторов</li>-->
-    <!--          <hr width="2" size="35" />-->
-    <!--          <li>Квартиры от хозяев</li>-->
-    <!--          <hr width="2" size="35" />-->
-    <!--          <li>Закрытые продажи</li>-->
-    <!--        </ul>-->
-    <!--      </div>-->
-    <!--    </div>-->
-
     <div class="second-section z-depth-5">
       <div class="container">
         <h3
@@ -101,146 +89,231 @@
           allowfullscreen=""
           loading="lazy"
         ></iframe>
-
-        <!--          <div class="form-card">-->
-        <!--            <div class="row">-->
-        <!--              <div class="col right map-form">-->
-        <!--                <div class="card-panel blue darken-3">-->
-        <!--                  <form action="">-->
-        <!--                    <div class="row">-->
-        <!--                      <div class="input-field col s12">-->
-        <!--                        <input id="name" type="text" class="validate" />-->
-        <!--                        <label for="name">Имя</label>-->
-        <!--                      </div>-->
-        <!--                      <div class="input-field col s12">-->
-        <!--                        <input-->
-        <!--                          id="telephone_num"-->
-        <!--                          type="text"-->
-        <!--                          class="validate"-->
-        <!--                          data-length="10"-->
-        <!--                        />-->
-        <!--                        <label for="telephone_num">Номер телефона</label>-->
-        <!--                      </div>-->
-        <!--                      <div class="input-field col s12">-->
-        <!--                        <select multiple>-->
-        <!--                          <option value="1">M.PARK</option>-->
-        <!--                          <option value="2">Mandarin ART</option>-->
-        <!--                          <option value="3">Скай Сити плюс</option>-->
-        <!--                          <option value="4">Омега</option>-->
-        <!--                          <option value="5">Скай Сити</option>-->
-        <!--                          <option value="6">Альтаир-3</option>-->
-        <!--                          <option value="7">Sea View</option>-->
-        <!--                          <option value="8">Морская резиденция</option>-->
-        <!--                          <option value="9">Оскар</option>-->
-        <!--                          <option value="10">-->
-        <!--                            Апарт-комплекс Литературный-->
-        <!--                          </option>-->
-        <!--                          <option value="11">Четыре сезона</option>-->
-        <!--                          <option value="12">ЖК на Еврейской, 3</option>-->
-        <!--                        </select>-->
-        <!--                        <label>Выберите комплекс(-ы)</label>-->
-        <!--                      </div>-->
-        <!--                      <label class="agreement">-->
-        <!--                        <input type="checkbox" />-->
-        <!--                        <span-->
-        <!--                          >Я ознакомлен(-а)-->
-        <!--                          <a href="">с политикой конфиденциальности</a></span-->
-        <!--                        >-->
-        <!--                      </label>-->
-        <!--                    </div>-->
-        <!--                  </form>-->
-        <!--                </div>-->
-        <!--              </div>-->
-        <!--            </div>-->
-        <!--          </div>-->
       </div>
     </div>
-
+    <div class="parallax-container">
+      <div class="parallax"><img src="img/mpark.jpg" /></div>
+    </div>
+    <div class="third-section z-depth-5">
+      <div class="container">
+        <h3
+          style="
+            color: #f77737;
+            border-bottom: 1px solid #f77737;
+            display: inline-block;
+          "
+        >
+          Какой-то текст
+        </h3>
+        <div class="row">
+          <div class="col s12 m12 l3">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/photo_2021-08-18_18-58-17.jpg" width="100" />
+                <span class="card-title">Card Title</span>
+              </div>
+              <div class="card-content">
+                <p>
+                  I am a very simple card. I am good at containing small bits of
+                  information. I am convenient because I require little markup
+                  to use effectively.
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="#">This is a link</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m12 l3">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/photo_2021-08-18_18-58-15.jpg" width="100" />
+                <span class="card-title">Card Title</span>
+              </div>
+              <div class="card-content">
+                <p>
+                  I am a very simple card. I am good at containing small bits of
+                  information. I am convenient because I require little markup
+                  to use effectively.
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="#">This is a link</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m12 l3">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/photo_2021-08-18_18-58-18.jpg" width="100" />
+                <span class="card-title">Card Title</span>
+              </div>
+              <div class="card-content">
+                <p>
+                  I am a very simple card. I am good at containing small bits of
+                  information. I am convenient because I require little markup
+                  to use effectively.
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="#">This is a link</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m12 l3">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/photo_2021-08-18_18-58-19.jpg" width="100" />
+                <span class="card-title">Card Title</span>
+              </div>
+              <div class="card-content">
+                <p>
+                  I am a very simple card. I am good at containing small bits of
+                  information. I am convenient because I require little markup
+                  to use effectively.
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="#">This is a link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="parallax-container">
       <div class="parallax"><img src="img/mpark.jpg" /></div>
     </div>
 
-    <!--          <div class="block_info">-->
-    <!--            <div class="right_side">-->
-    <!--              <div class="top_side">-->
-    <!--                Застройщик СК Будова В продаже квартиры в новых комплексах!-->
-    <!--              </div>-->
-    <!--            </div>-->
-    <!--            <div class="down_side">-->
-    <!--              <ul>-->
-    <!--                <li>Квартиры от инвесторов</li>-->
-    <!--                <li>Квартиры от хозяев</li>-->
-    <!--                <li>Закрытые продажи</li>-->
-    <!--              </ul>-->
-    <!--            </div>-->
-    <!--            <div class="left_side">Самый большой выбор вторичного рынка</div>-->
-    <!--          </div>-->
-    <!--      <div class="content">-->
-    <!--        <section class="cards">-->
-    <!--          <h2 class="cards__title title">В карточках (три колонки)</h2>-->
-    <!--          <div class="cards__row">-->
-    <!--            <div class="cards__column">-->
-    <!--              <div class="cards__item">-->
-    <!--                <div class="cards__image">-->
-    <!--                  <img src="img/photo_2021-08-18_18-58-00.jpg" alt="" />-->
-    <!--                </div>-->
-    <!--                <div class="cards__body">-->
-    <!--                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam-->
-    <!--                  corrupti a voluptatibus autem eaque aut nisi quis ex sequi!-->
-    <!--                  Ducimus necessitatibus deleniti mollitia ex dignissimos odio-->
-    <!--                  obcaecati totam est nesciunt?-->
-    <!--                </div>-->
-    <!--              </div>-->
-    <!--            </div>-->
-    <!--            <div class="cards__column">-->
-    <!--              <div class="cards__item">-->
-    <!--                <div class="cards__image">-->
-    <!--                  <img src="img/photo_2021-08-18_18-58-02.jpg" alt="" />-->
-    <!--                </div>-->
-    <!--                <div class="cards__body">-->
-    <!--                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam-->
-    <!--                  corrupti a voluptatibus autem eaque aut nisi quis ex sequi!-->
-    <!--                  Ducimus necessitatibus deleniti mollitia ex dignissimos odio-->
-    <!--                  obcaecati totam est nesciunt?-->
-    <!--                </div>-->
-    <!--              </div>-->
-    <!--            </div>-->
-    <!--            <div class="cards__column">-->
-    <!--              <div class="cards__item">-->
-    <!--                <div class="cards__image">-->
-    <!--                  <img src="img/photo_2021-08-18_18-58-03.jpg" alt="" />-->
-    <!--                </div>-->
-    <!--                <div class="cards__body">-->
-    <!--                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam-->
-    <!--                  corrupti a voluptatibus autem eaque aut nisi quis ex sequi!-->
-    <!--                  Ducimus necessitatibus deleniti mollitia ex dignissimos odio-->
-    <!--                  obcaecati totam est nesciunt?-->
-    <!--                </div>-->
-    <!--              </div>-->
-    <!--            </div>-->
-    <!--          </div>-->
-    <!--        </section>-->
-    <!--      </div>-->
-    <!--      <footer>-->
-    <!--        <div class="box_footer"></div>-->
-    <!--      </footer>-->
-    <!-- Element Showed -->
     <div id="modal1" class="modal">
       <div class="modal-content">
-        <h4>Modal Header</h4>
-        <p>A bunch of text</p>
+        <h5 style="font-weight: bold">Форма обратной связи</h5>
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s12">
+              <input
+                placeholder="Введите ваше имя..."
+                required
+                id="name"
+                type="text"
+                class="validate"
+              />
+              <label for="first_name">Имя</label>
+            </div>
+            <div class="input-field col s12">
+              <input
+                placeholder="Введите ваш номер телефона..."
+                id="telephone"
+                type="text"
+                required
+                class="validate"
+              />
+              <label for="first_name">Номер телефона</label>
+            </div>
+            <div class="input-field col s12">
+              <select multiple required>
+                <option value="1">M.PARK</option>
+                <option value="2">Mandarin ART</option>
+                <option value="3">Скай Сити плюс</option>
+                <option value="4">Омега</option>
+                <option value="5">Скай Сити</option>
+                <option value="6">Альтаир-3</option>
+                <option value="7">Sea View</option>
+                <option value="8">Морская резиденция</option>
+                <option value="9">Оскар</option>
+                <option value="10">Апарт-комплекс Литературный</option>
+                <option value="11">Четыре сезона</option>
+                <option value="12">ЖК на Еврейской, 3</option>
+              </select>
+              <label>Выберите комплекс(-ы)</label>
+            </div>
+            <label class="agreement">
+              <input type="checkbox" required />
+              <span
+                >Я ознакомлен(-а)
+                <a href="">с политикой конфиденциальности</a></span
+              >
+            </label>
+          </div>
+          <div class="modal-footer">
+            <button
+              class="btn waves-effect waves-light blue darken-3"
+              type="submit"
+              name="action"
+            >
+              Отправить
+              <i class="material-icons right">send</i>
+            </button>
+          </div>
+        </form>
       </div>
-      <div class="modal-footer">
-        <a href="#!" class="modal-close waves-effect waves-green btn-flat"
-          >Agree</a
-        >
+    </div>
+    <div id="modal2" class="modal" style="padding-bottom: 2rem">
+      <div class="modal-content">
+        <h5 style="font-weight: bold">
+          Хотите продать свою квартиру в ЖК Будова?
+        </h5>
+        <p style="color: #737373">
+          Оставьте Ваш контактный номер и наш менеджер перезвонит Вам для
+          постановки квартиры в нашу базу
+        </p>
+        <form method="POST">
+          <div class="input-field col s6" style="margin-top: 1.5rem">
+            <input id="first_name" type="text" class="validate" />
+            <label for="first_name" class="">Номер телефона</label>
+          </div>
+          <p style="color: #737373">*Ваши данные не будут распространяться</p>
+          <button
+            class="btn waves-effect waves-light right blue darken-3"
+            type="submit"
+            name="action"
+          >
+            Отправить
+            <i class="material-icons right">send</i>
+          </button>
+        </form>
       </div>
     </div>
     <div class="fixed-action-btn">
-      <a class="btn-floating btn-large orange modal-trigger" href="#modal1">
+      <a
+        class="btn-floating btn-large orange darken-2 modal-trigger"
+        href="#modal1"
+      >
         <i class="large material-icons">call</i>
       </a>
     </div>
+
+    <footer class="page-footer blue darken-4">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">БУДОВА</h5>
+            <p class="grey-text text-lighten-4">
+              You can use rows and columns here to organize your footer content.
+            </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Ссылки</h5>
+            <ul>
+              <li>
+                <a class="grey-text text-lighten-3" href="#!">Instagram</a>
+              </li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2021 БУДОВА
+          <a class="grey-text text-lighten-4 right" href="#!"
+            >Политика конфиденциальности</a
+          >
+        </div>
+      </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/materialize.min.js"></script>
     <script src="js/index.js"></script>

@@ -166,12 +166,13 @@ body {
   color: #f77737;
 }
 
-[type="checkbox"] + span:not(.lever):before,
-[type="checkbox"]:not(.filled-in) + span:not(.lever):after {
-  border: 2px solid #fff;
+.third-section {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
-[type="checkbox"]:checked + span:not(.lever):before {
-  border-right: 2px solid #f77737;
-  border-bottom: 2px solid #f77737;
+@media screen and (max-width: 425px) {
+  h3 {
+    font-size: 28px;
+  }
 }
