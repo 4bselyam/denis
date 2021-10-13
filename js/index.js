@@ -1,26 +1,27 @@
 $(document).ready(function () {
-  $("select").formSelect({
-    classes: "select-el",
-  });
+	$("select").formSelect({
+		classes: "select-el",
+	});
 });
 
 $(document).ready(function () {
-  $(".sidenav").sidenav();
+	$(".sidenav").sidenav();
 });
 
 $(".carousel.carousel-slider").carousel({
-  fullWidth: true,
-  indicators: true,
+	fullWidth: true,
+	indicators: true,
 });
 
 $(document).ready(function () {
-  $(".parallax").parallax();
+	$(".parallax").parallax();
 });
 
 $(document).ready(function () {
-  $(".fixed-action-btn").floatingActionButton();
+	$(".fixed-action-btn").floatingActionButton();
 });
 
 $(document).ready(function () {
-  $(".modal").modal();
+	$(".modal").modal();
 });
+
